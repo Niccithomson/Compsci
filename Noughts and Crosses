@@ -1,0 +1,12 @@
+for row in range(0, 3):
+ for col in range(0, 3):
+ print(" ", end="")
+ if col < 2:
+ print("|", end="")
+ print("")
+  if row < 2:
+ print("-+-+-")
+ for row in range(0, 3):
+ for col in range(0, 3):
+ print(game[row][col], end=””)
+print(“”)
